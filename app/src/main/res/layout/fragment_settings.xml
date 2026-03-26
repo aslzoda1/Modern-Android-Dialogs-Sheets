@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingStart="24dp"
+        android:paddingTop="88dp"
+        android:paddingEnd="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/s"
+                android:text="Settings"
+                android:textColor="?attr/colorOnSurface"
+                android:textSize="34sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/y"
+                android:text="Personalize your experience"
+                android:textColor="?attr/colorOnSurfaceVariant"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnClearAll"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/d"
+                android:text="Clear All Tasks"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:backgroundTint="?attr/colorError"
+                app:cornerRadius="34dp"
+                app:elevation="6dp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

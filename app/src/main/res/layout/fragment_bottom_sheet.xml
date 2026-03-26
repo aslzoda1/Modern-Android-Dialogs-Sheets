@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/ios_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="24dp">
+
+
+        <TextView
+            android:id="@+id/tvTitleBottomSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bottom Sheet"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/ios_text_primary"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:fontFamily="@font/s"/>
+
+         <TextView
+            android:id="@+id/tvTheoryBottomSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BottomSheet — bu ekranning pastki qismidan chiqadigan panel. Odatda qo‘shimcha actionlar, filterlar yoki menu uchun ishlatiladi."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/ios_text_secondary"
+            android:gravity="start"
+            android:paddingHorizontal="8dp"
+            android:fontFamily="@font/y"/>
+
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nBottomSheet yaratish:\n\n1️⃣ BottomSheetDialogFragment class\n2️⃣ Layout ulash\n3️⃣ show() qilish"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/ios_text_primary"
+            android:paddingTop="20dp"
+            android:paddingHorizontal="8dp"
+            android:gravity="start"
+            android:fontFamily="@font/m"/>
+
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginVertical="28dp"
+            android:background="@color/ios_divider"/>
+
+         <TextView
+            android:id="@+id/tvPracticeBottomSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practice — Ishlatib ko‘rish"
+            android:textSize="16sp"
+            android:textColor="@color/ios_text_primary"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:fontFamily="@font/d"/>
+
+         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPracticeBottomSheet"
+            android:layout_width="220dp"
+            android:layout_height="52dp"
+            android:text="BottomSheet ochish"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/ios_blue"
+            app:cornerRadius="16dp"
+            android:elevation="0dp"
+            android:stateListAnimator="@null"
+            android:fontFamily="@font/p"/>
+
+    </LinearLayout>
+
+</ScrollView>

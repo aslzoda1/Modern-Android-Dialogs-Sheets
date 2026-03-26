@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/ios_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingBottom="24dp">
+
+         <TextView
+            android:id="@+id/tvSnackbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action Snackbar"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/ios_text_primary"
+            android:paddingBottom="20dp"
+            android:fontFamily="@font/s"
+            android:gravity="center"/>
+
+         <TextView
+            android:id="@+id/tvSnackbarTheory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Snackbar — foydalanuvchiga vaqtinchalik xabar ko‘rsatadi. Toastdan farqi: action tugmasi qo‘shish mumkin."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/ios_text_secondary"
+            android:paddingHorizontal="8dp"
+            android:fontFamily="@font/y"
+            android:gravity="start"/>
+
+         <TextView
+            android:id="@+id/tvSnackbarCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSnackbar ishlatish:\n1️⃣ Snackbar.make()\n2️⃣ setAction()\n3️⃣ show()"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/ios_text_primary"
+            android:paddingTop="20dp"
+            android:paddingHorizontal="8dp"
+            android:fontFamily="@font/m"
+            android:gravity="start"/>
+
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginVertical="28dp"
+            android:background="@color/ios_divider"/>
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practice — Ishlatib ko‘rish"
+            android:textSize="16sp"
+            android:textColor="@color/ios_text_primary"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:fontFamily="@font/d"/>
+
+         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPracticeSnackbar"
+            android:layout_width="220dp"
+            android:layout_height="52dp"
+            android:text="Snackbar chiqarish"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/ios_blue"
+            app:cornerRadius="16dp"
+            android:elevation="0dp"
+            android:stateListAnimator="@null"
+            android:fontFamily="@font/p"/>
+
+    </LinearLayout>
+</ScrollView>

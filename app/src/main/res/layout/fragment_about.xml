@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="40dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo"
+                app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/a"
+                android:text="Aslzoda's App"
+                android:textColor="#C8C8C8"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:fontFamily="@font/d"
+                android:text="Smart • Beautiful • Modern"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+             <com.google.android.material.card.MaterialCardView
+                android:id="@+id/aboutCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="26dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/p"
+                        android:text="Version 1.0.0"
+                        android:textColor="?android:textColorSecondary"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/s"
+                        android:text="💻Developer\n Aslzoda Bozorboyeva"
+                        android:textColor="?android:textColorPrimary" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/y"
+                        android:textColor="@color/ios_text_primary"
+                        android:textSize="15sp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="🚀 Ilova maqsadi: Android fragmentlari va UI komponentlarini o‘rganish va amalda qo‘llash.\n\n📚 Nima o‘rganasiz:\n\n• Bottom Sheet – ekran pastidan chiqadigan interaktiv panellarni yaratish va ishlatishni o‘rganasiz.\n• Custom Dialog – maxsus layout bilan dialog oynalarni yaratish va foydalanuvchi inputini olish.\n• Action Snackbar – foydalanuvchiga vaqtinchalik xabar berish va action tugmalar bilan interaktiv qilish.\n\n✍️ Amaliy qism:\n\n• Har bir mavzu bo‘yicha nazariy bilimlar: tushuntirishlar, kod misollar, tavsiyalar.\n• Interaktiv mashqlar: tugmalar, dialoglar, panel va snackbarlarni ishlatib ko‘rish.\n\n🎯 Quiz orqali:\n\n• O‘rganilgan nazariy va amaliy bilimlaringizni sinab ko‘rasiz.\n• Har bir savolga to‘g‘ri javob bersangiz, yashil rang, noto‘g‘ri javob qizil rang bilan ko‘rsatiladi.\n• Quiz oxirida sizning natijangiz va o‘rganish tarixi saqlanadi.\n\n✨ Natija: Ilova yordamida siz Android UI komponentlarini nazariy va amaliy jihatdan mukammal o‘rganasiz, o‘z bilimlaringizni sinab, real tajriba orttirasiz!"
+                        android:padding="16dp"
+                        android:gravity="start"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
