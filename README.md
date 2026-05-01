@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Design-Material%203-orange?style=for-the-badge" />
 </p>
 
----
+---  
 
 ## 📸 App Interface Showcase
 
