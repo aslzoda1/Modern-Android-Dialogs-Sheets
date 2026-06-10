@@ -1,7 +1,7 @@
-<h1 align="center"> 🚀 Real-World Android UI Implementation 🔥 </h1>
+<h1 align="center"> 🚀 𝑹𝒆𝒂𝒍-𝑾𝒐𝒓𝒍𝒅 𝑨𝒏𝒅𝒓𝒐𝒊𝒅 𝑼𝑰 𝑰𝒎𝒑𝒍𝒆𝒎𝒆𝒏𝒕𝒂𝒕𝒊𝒐𝒏 🔥 </h1>
 
 <p align="center">
-  <b>Modern Android Architecture • Interactive UI Components • UX Mastery</b>
+  <b>𝑀𝑜𝒹𝑒𝓇𝓃 𝒜𝓃𝒹𝓇𝑜𝒾𝒹 𝒜𝓇𝒸𝒽𝒾𝓉𝑒𝒸𝓉𝓊𝓇𝑒 • 𝐼𝓃𝓉𝑒𝓇𝒶𝒸𝓉𝒾𝓋𝑒 𝒰𝐼 𝒞𝑜𝓂𝓅𝑜𝓃𝑒𝓃𝓉𝓈 • 𝒰𝒳 𝑀𝒶𝓈𝓉𝑒𝓇𝓎</b>
 </p>
 
 <p align="center">
@@ -67,5 +67,5 @@ Ushbu modul orqali quyidagi ilg'or Android texnologiyalari amalga oshirilgan:
 *   📊 **Local Data Persistence:** Natijalarni va foydalanuvchi ma'lumotlarini `SharedPreferences` orqali saqlash.
 
 <p align="center">
-  <b>🌟 Android UI Mastery — Har bir detal e'tibor bilan ishlab chiqilgan 🌟</b>
+  <b>🌟 𝘈𝘯𝘥𝘳𝘰𝘪𝘥 𝘜𝘐 𝘔𝘢𝘴𝘵𝘦𝘳𝘺 — 𝘏𝘢𝘳 𝘣𝘪𝘳 𝘥𝘦𝘵𝘢𝘭 𝘦'𝘵𝘪𝘣𝘰𝘳 𝘣𝘪𝘭𝘢𝘯 𝘪𝘴𝘩𝘭𝘢𝘣 𝘤𝘩𝘪𝘲𝘪𝘭𝘨𝘢𝘯 🄱🅈 🄰🅂🄻🅉🄾🄳🄰🌟</b>
 </p>
