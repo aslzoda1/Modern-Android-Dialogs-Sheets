@@ -69,3 +69,6 @@ Ushbu modul orqali quyidagi ilg'or Android texnologiyalari amalga oshirilgan:
 <p align="center">
   <b>🌟 𝘈𝘯𝘥𝘳𝘰𝘪𝘥 𝘜𝘐 𝘔𝘢𝘴𝘵𝘦𝘳𝘺 — 𝘏𝘢𝘳 𝘣𝘪𝘳 𝘥𝘦𝘵𝘢𝘭 𝘦'𝘵𝘪𝘣𝘰𝘳 𝘣𝘪𝘭𝘢𝘯 𝘪𝘴𝘩𝘭𝘢𝘣 𝘤𝘩𝘪𝘲𝘪𝘭𝘨𝘢𝘯 🄱🅈 🄰🅂🄻🅉🄾🄳🄰 🌟</b>
 </p>
+
+
+aslzoda
